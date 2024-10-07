@@ -26,7 +26,7 @@ defineRule("boiler_error_decrypt", {
     then: function (newValue, devName, cellName) {
         if (newValue == "1") {
             dev["Boiler_error_codes"]["code"] = newValue;
-            dev["Boiler_error_codes"]["description"] = "Отсутствие зажигания.";
+            dev["Boiler_error_codes"]["description"] = "Отсутствие зажигания";
         }
 
         if (newValue == "2") {
@@ -36,7 +36,7 @@ defineRule("boiler_error_decrypt", {
 		
         if (newValue == "3") {
             dev["Boiler_error_codes"]["code"] = newValue;
-            dev["Boiler_error_codes"]["description"] = "Сработал предохранительный термостат (датчик тяги).";
+            dev["Boiler_error_codes"]["description"] = "Сработал предохранительный термостат (датчик тяги)";
         }
 		
 		if (newValue == "4") {
@@ -46,21 +46,21 @@ defineRule("boiler_error_decrypt", {
 		
 		if (newValue == "5") {
             dev["Boiler_error_codes"]["code"] = newValue;
-            dev["Boiler_error_codes"]["description"] = "Неисправен датчик температуры контура отопления.";
+            dev["Boiler_error_codes"]["description"] = "Неисправен датчик температуры контура отопления";
         }
 		
 		if (newValue == "6") {
             dev["Boiler_error_codes"]["code"] = newValue;
-            dev["Boiler_error_codes"]["description"] = "Неисправен датчик температуры системы ГВС.";
+            dev["Boiler_error_codes"]["description"] = "Неисправен датчик температуры системы ГВС";
         }
 
 		if (newValue == "7") {
             dev["Boiler_error_codes"]["code"] = newValue;
-            dev["Boiler_error_codes"]["description"] = "Неисправен датчик температуры отходящих газов.";
+            dev["Boiler_error_codes"]["description"] = "Неисправен датчик температуры отходящих газов";
         }
 
 		if (newValue == "8") {
-            dev["Boiler_error_codes"]["description"] = "Неисправностях компонентов электроники, отвечающей за сигнал пламени. Неисправность платы управления или отсутствие заземления.";
+            dev["Boiler_error_codes"]["description"] = "Неисправностях компонентов электроники, отвечающей за сигнал пламени. Неисправность платы управления или отсутствие заземления";
         }
 
 		if (newValue == "9") {
@@ -69,37 +69,37 @@ defineRule("boiler_error_decrypt", {
         }
 
 		if (newValue == "10") {
-            dev["Boiler_error_codes"]["description"] = "Нет сигнала от реле минимального давления в системе отопления. Провекрить давление в контуре отопления.";
+            dev["Boiler_error_codes"]["description"] = "Нет сигнала от реле минимального давления в системе отопления. Провекрить давление в контуре отопления";
         }
 
         if (newValue == "11") {
             dev["Boiler_error_codes"]["code"] = newValue;
-            dev["Boiler_error_codes"]["description"] = "Сработал предохранительный термостат перегрева низкотемпературного контура.";
+            dev["Boiler_error_codes"]["description"] = "Сработал предохранительный термостат перегрева низкотемпературного контура";
         }
 
         if (newValue == "12") {
             dev["Boiler_error_codes"]["code"] = newValue;
-            dev["Boiler_error_codes"]["description"] = "Отсутствие сигнала от дифференциального прессостата. Засорение трубок дифференциального гидравлического прессостата или микропереключатель неисправен.";
+            dev["Boiler_error_codes"]["description"] = "Отсутствие сигнала от дифференциального прессостата. Засорение трубок дифференциального гидравлического прессостата или микропереключатель неисправен";
         }
 
         if (newValue == "13") {
             dev["Boiler_error_codes"]["code"] = newValue;
-            dev["Boiler_error_codes"]["description"] = "Повреждение контактов дифференциального контроллера объёма воды.";
+            dev["Boiler_error_codes"]["description"] = "Повреждение контактов дифференциального контроллера объёма воды";
         }
 
 		if ((newValue == "25") || (newValue == "26")) {
             dev["Boiler_error_codes"]["code"] = newValue;
-            dev["Boiler_error_codes"]["description"] = "Отсутствие циркуляции воды (блокировка насоса).";
+            dev["Boiler_error_codes"]["description"] = "Отсутствие циркуляции воды (блокировка насоса)";
         }
 
 		if (newValue == "31") {
             dev["Boiler_error_codes"]["code"] = newValue;
-            dev["Boiler_error_codes"]["description"] = "Нет связи с контроллером.";
+            dev["Boiler_error_codes"]["description"] = "Нет связи с контроллером";
         }
 
 		if (newValue == "32") {
             dev["Boiler_error_codes"]["code"] = newValue;
-            dev["Boiler_error_codes"]["description"] = "Наличие накипи в теплообменнике.";
+            dev["Boiler_error_codes"]["description"] = "Наличие накипи в теплообменнике";
         }
 		
 		if (newValue == "35") {
@@ -109,17 +109,17 @@ defineRule("boiler_error_decrypt", {
 
         if (newValue == "96") {
             dev["Boiler_error_codes"]["code"] = newValue;
-            dev["Boiler_error_codes"]["description"] = "Понижение напряжения в сети электропитания. Автоматический ПЕРЕЗАПУСК.";
+            dev["Boiler_error_codes"]["description"] = "Понижение напряжения в сети электропитания. Автоматический ПЕРЕЗАПУСК";
         }
 		
 		if (newValue == "97") {
             dev["Boiler_error_codes"]["code"] = newValue;
-            dev["Boiler_error_codes"]["description"] = "Неправильная частота электропитания.";
+            dev["Boiler_error_codes"]["description"] = "Неправильная частота электропитания";
         }
 		
 		if (newValue == "98") {
             dev["Boiler_error_codes"]["code"] = newValue;
-            dev["Boiler_error_codes"]["description"] = "Ошибка в цепи аварийной защиты газового клапана.";
+            dev["Boiler_error_codes"]["description"] = "Ошибка в цепи аварийной защиты газового клапана";
         }
     }
 });
